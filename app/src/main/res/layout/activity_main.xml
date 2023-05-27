@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Open Google"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="@color/black"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Open Youtube"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:layout_rowWeight="1"
+        android:backgroundTint="@color/black"
+        />
+    <Button
+        android:id="@+id/yahoo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Open Yahoo"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        />
+    <Button
+        android:id="@+id/geeksforgeeks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Open Geeksforgeeks"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:layout_rowWeight="1"
+        android:backgroundTint="@color/black"
+        />
+
+
+</GridLayout>
